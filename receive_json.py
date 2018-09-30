@@ -4,7 +4,7 @@ import json
 import pika
 
 
-rabbitHost='oci-apps.us.oracle.com'
+rabbitHost='my-host.com'
 
 connection = pika.BlockingConnection(pika.ConnectionParameters(host=rabbitHost))
 

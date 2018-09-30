@@ -24,7 +24,7 @@ msgBody =''' {"data" : {
 if results.message is not None:
     msgBody = results.message
 
-rabbitHost='oci-apps.us.oracle.com'
+rabbitHost='my-host.com'
     
 connection = pika.BlockingConnection(pika.ConnectionParameters(host=rabbitHost))
 

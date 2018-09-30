@@ -16,7 +16,7 @@ msgBody = 'Hello from Python'
 if results.message is not None:
     msgBody = results.message
     
-connection = pika.BlockingConnection(pika.ConnectionParameters(host='oci-apps.us.oracle.com'))
+connection = pika.BlockingConnection(pika.ConnectionParameters(host='my-host.com'))
 #connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost'))
 
 channel = connection.channel()
